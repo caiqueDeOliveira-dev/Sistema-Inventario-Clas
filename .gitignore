@@ -1,0 +1,10 @@
+# Pastas e arquivos de ambiente virtual
+.venv/
+venv/
+__pycache__/
+
+# Dados sensíveis e bancos de dados locais
+.env
+comunidade_v2.db
+comunidade.db
+*.log
