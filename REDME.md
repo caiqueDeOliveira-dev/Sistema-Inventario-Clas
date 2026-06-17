@@ -1,31 +1,34 @@
-# Sistema de Gerenciamento de Comunidades (Tropa do CaOS)
+# 📦 Sistema de Inventário de Clãs (Python)
 
-Este software é uma solução robusta de gerenciamento de clãs e comunidades, focada em organização de membros, auditoria de sorteios e automação de relatórios via Discord Webhooks.
+<p align="center">
+  <img src="./screenshots/screenshot.png" alt="Interface do Sistema de Inventário" width="600px" />
+</p>
 
-## 🚀 Funcionalidades
-- **Gestão de Elenco:** Cadastro, remoção e busca em tempo real.
-- **Auditoria:** Histórico completo de sorteios com persistência em SQLite.
-- **Automação:** Disparo automático de relatórios formatados para canais do Discord.
-- **Segurança:** Uso de variáveis de ambiente (`.env`) para proteção de tokens de API.
+Uma solução robusta desenvolvida em **Python** para a gestão automatizada de recursos, distribuição de equipamentos e controle de membros em comunidades e facções de jogos. O sistema foi projetado para otimizar a logística interna de clãs, garantindo um histórico preciso e evitando o desperdício de itens estratégicos.
 
-## 🛠️ Tecnologias Utilizadas
-- **Linguagem:** Python 3.14
-- **Interface:** Tkinter (GUI)
-- **Banco de Dados:** SQLite3
-- **Integração:** `requests` para comunicação com a API do Discord
-- **Configuração:** `python-dotenv` para gestão de variáveis de ambiente
+---
 
-## ⚙️ Como Instalar
-1. Clone o repositório.
-2. Crie um ambiente virtual: `python -m venv .venv`
-3. Ative o ambiente e instale as dependências:
+### 🚀 Funcionalidades Principais
+
+* **Controle de Membros:** Cadastro e monitoramento de jogadores ativos vinculados ao clã.
+* **Gestão de Equipamentos:** Sistema de entrada, saída e distribuição de itens e armamentos em tempo real.
+* **Fila de Distribuição:** Organização inteligente de pedidos para garantir que os recursos certos cheguem aos membros corretos.
+* **Persistência de Dados:** Estrutura preparada para manipulação local de dados, garantindo integridade e histórico das movimentações.
+
+---
+
+### 🛠️ Tecnologias Utilizadas
+
+* **[Python](https://www.python.org/):** Linguagem principal no desenvolvimento da lógica de negócios e automação.
+* **Tkinter / CustomTkinter:** Desenvolvimento de uma interface gráfica (GUI) limpa e intuitiva para os administradores.
+* **Manipulação Avançada de Dados:** Leitura e escrita estruturada para gerenciamento dos arquivos do inventário.
+
+---
+
+### 🔧 Como Executar o Projeto
+
+Para rodar o sistema de inventário na sua máquina, siga os passos abaixo no seu terminal:
+
+1. **Clone o repositório:**
    ```bash
-   pip install -r requirements.txt
-
-   ## 📸 Visual do Projeto
-
-**Interface Principal:**
-![Interface Principal](assets/dashboard_main.png)
-
-**Painel de Gestão:**
-![Painel de Gestão](assets/painel_cla.png)
+   git clone [https://github.com/caiqueDeOliveira-dev/Sistema-Inventario-Clas.git](https://github.com/caiqueDeOliveira-dev/Sistema-Inventario-Clas.git)
