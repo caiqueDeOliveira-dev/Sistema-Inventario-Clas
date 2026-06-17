@@ -1,7 +1,8 @@
 # 📦 Sistema de Inventário de Clãs (Python)
 
 <p align="center">
-  <img src="./screenshots/screenshot.png" alt="Interface do Sistema de Inventário" width="600px" />
+  <img src="./screenshots/screenshots.png" alt="Interface de Gestão de Membros" width="45%" />
+  <img src="./screenshots/screenshots1.png" alt="Interface de Gestão de Equipamentos" width="45%" />
 </p>
 
 Uma solução robusta desenvolvida em **Python** para a gestão automatizada de recursos, distribuição de equipamentos e controle de membros em comunidades e facções de jogos. O sistema foi projetado para otimizar a logística interna de clãs, garantindo um histórico preciso e evitando o desperdício de itens estratégicos.
